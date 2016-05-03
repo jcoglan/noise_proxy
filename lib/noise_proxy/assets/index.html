@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Noise Proxy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-2.2.3.js"></script>
+  </head>
+  <body>
+
+    <h1>Noise Proxy</h1>
+
+    <form method="post" action="/">
+      <label for="host">Host</label>
+      <input type="text" name="host" id="host">
+
+      <label for="port">Port</label>
+      <input type="text" name="port" id="port">
+
+      <label for="outgoing">Outgoing</label>
+      <input type="text" name="outgoing" id="outgoing">
+
+      <label for="incoming">Incoming</label>
+      <input type="text" name="incoming" id="incoming">
+
+      <button type="submit">Save</button>
+    </form>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>

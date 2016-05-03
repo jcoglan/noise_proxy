@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require File.expand_path('../../lib/noise_proxy', __FILE__)
+
+port = (ARGV.first || 8080).to_i
+
+runner = NoiseProxy::Runner.new(port)
+runner.start

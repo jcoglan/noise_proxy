@@ -1,0 +1,25 @@
+body, input, button {
+  font: 24px/1.5 FreeSans, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 2em 4em;
+}
+
+label, button {
+  clear: left;
+  float: left;
+  display: block;
+  width: 6em;
+}
+
+button {
+  margin-left: 6em;
+}
+
+input {
+  float: left;
+  margin: 0 0 1em 0;
+  padding: 0 1em;
+}
